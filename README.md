@@ -9,4 +9,7 @@ Simple scripts to emulate malicious activity based on the MITRE ATT&amp;CK frame
 
 ### selfCompile.bat
  * Uses “csc.exe” to compile a batch file into a .NET assembly and deletes it after execution. This tests permissions or whitelisting policies for the Windows compiler installed by default on Windows 10. The script can be configured to delete the batch file as well or keep the executable.
+ 
+### newEicar.ps1 
+* PowerShell function written to test AV detection and centralized reporting, after the Eicar string is detected centralized reporting can be confirmed and documented. 
 
