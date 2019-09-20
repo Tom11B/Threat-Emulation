@@ -6,3 +6,6 @@ Simple scripts to emulate malicious activity based on the MITRE ATT&amp;CK frame
 
 ### xml_execute.bat:
   * Simulates the execution of remote code without compromising the host system. No shell is opened, the script assumes that if the code can   be downloaded and executed from a remote location that it is possible to initiate a remote shell with this attack vector.  
+
+### selfCompile.bat
+ * Uses “csc.exe” to compile a batch file into an executable and deletes it after execution. This tests permissions or whitelisting policies for the Windows compiler installed by default on Windows 10. 
