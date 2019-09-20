@@ -29,7 +29,6 @@ public class Hello
    public static void Main()
    {
       System.Console.WriteLine("Hello From C Sharp, Dynamicly Compiled and Deleted After Execution!");
-	 // Process.Start("cipher.exe /wf:" + Application.ExecutablePath);
 	 // Application.Exit();	
    }
 }
